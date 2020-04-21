@@ -1,0 +1,43 @@
+body{
+	background-color: #c7ecee!important;
+}
+
+label{
+	font-size: 20px;
+    font-weight: 300;
+}
+
+.estilo-form{
+	background: #ecf0f1;
+    padding: 5%;
+    margin-top: 10%;
+    border-radius: 7%;
+    -webkit-box-shadow: 8px -8px 25px 0px rgba(0,0,0,0.23);
+    -moz-box-shadow: 8px -8px 25px 0px rgba(0,0,0,0.23);
+    box-shadow: 8px -8px 25px 8px rgba(0,0,0,0.23);
+}
+
+.titulo p{
+	text-align: center;
+}
+
+.titulo p img{
+	width: 276px;
+    margin-top: 5%;
+}
+
+.titulo h1{
+	text-align: center;
+    color: white;
+    margin-top: 4%;
+    margin-bottom: -4%;
+}
+
+.mg-5{
+	margin-bottom: 5%;
+}
+
+.alert-success{
+    text-align: center;
+    font-size: 20px;
+}

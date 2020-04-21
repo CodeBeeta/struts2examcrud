@@ -1,0 +1,28 @@
+<!DOCTYPE struts PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+          "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="br.com.projeto.action" extends="struts-default">
+        <action name="saveExam" method="saveExam" class="controller.ExamCtrl" >
+            <result name="success">/index.jsp</result>
+            <result name="input">/index.jsp</result>
+        </action>
+        
+        <action name="listPage" method="findAllExam" class="controller.ExamCtrl" >
+        	<result name="success">/list.jsp</result>
+        </action>
+        
+        <action name="editExam" method="editExam" class="controller.ExamCtrl" >
+        	<result name="success">/edit.jsp</result>
+        </action>
+        
+        <action name="updateExam" method="updateExam" class="controller.ExamCtrl" >
+        	<result name="success">/edit.jsp</result>
+        	<result name="input">/edit.jsp</result>
+        </action>
+        
+        <action name="deleteExam" method="deleteExam" class="controller.ExamCtrl" >
+        	<result name="success">/list.jsp</result>
+        </action>
+    </package>
+</struts>
